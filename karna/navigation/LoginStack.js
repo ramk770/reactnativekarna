@@ -18,11 +18,11 @@ function LoginStack() {
   return (
     <Context.Provider value={{user,setuser}}>
     <Stack.Navigator screenOptions={{headerShown:false}}>
-            {/* <Stack.Screen name="splace" component={SplashScreen} />
+             <Stack.Screen name="splace" component={SplashScreen} />
             <Stack.Screen name="welcome" component={Welcomepage} />
            <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Register" component={Register } />  
-        <Stack.Screen name="Otpverify" component={ Otpverfiy} />     */}
+        <Stack.Screen name="Otpverify" component={ Otpverfiy} />    
       <Stack.Screen name='stack' component={Tabnav} />
     </Stack.Navigator>
     </Context.Provider>
