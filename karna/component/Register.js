@@ -218,10 +218,10 @@ function Register({ navigation }) {
     style={{ zIndex: 9999, elevation: 1000, }}
 >
         <Picker.Item label="Select role ?" value=""  style={{color:"black",fontSize:15}} />
-        <Picker.Item label="Reciver" value="Yes" style={{color:"black",fontSize:15}} />
-        <Picker.Item label="Donar" value="No" style={{color:"black",fontSize:15}} />
-        <Picker.Item label="seller" value="S" style={{color:"black",fontSize:15}} />
-        <Picker.Item label="other" value="D" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Receiver" value="Yes" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Donor" value="No" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Seller" value="S" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Others" value="D" style={{color:"black",fontSize:15}} />
       </Picker>
       <Text style={styles.line}></Text>
      </View>

@@ -142,7 +142,7 @@ function DonarNonveg({navigation}) {
                             value={name}
                             onChangeText={text => setName(text)}
                         />
-                        <Text style={styles.text}>PhoneNumber</Text>
+                        <Text style={styles.text}>Phone No.</Text>
                         <TextInput
                             type="text"
                             placeholder="Phonenumber"
@@ -150,10 +150,10 @@ function DonarNonveg({navigation}) {
                             value={phoneNumber}
                             onChangeText={text => setphoneNumber(text)}
                         />
-                        <Text style={styles.text}>Roles</Text>
+                        <Text style={styles.text}>Inst. Name</Text>
                         <TextInput
                             type="text"
-                            placeholder="Roles"
+                            placeholder="Name"
                             style={styles.input}
                             value={hotel}
                             onChangeText={text => setHotel(text)}
@@ -166,10 +166,10 @@ function DonarNonveg({navigation}) {
                             value={foodname}
                             onChangeText={text => setfoodname(text)}
                         />
-                        <Text style={styles.text}>Member</Text>
+                        <Text style={styles.text}>No. of people </Text>
                         <TextInput
                             type="text"
-                            placeholder="member"
+                            placeholder="People"
                             style={styles.input}
                             value={member}
                             onChangeText={text => setmeber(text)}
@@ -186,7 +186,7 @@ function DonarNonveg({navigation}) {
                          <Text style={styles.text}> Location</Text>
                         <TextInput
                             type="text"
-                            placeholder="location"
+                            placeholder="Location"
                             style={styles.input}
                             value={location}
                             onChangeText={text => setLocation(text)}
@@ -201,7 +201,7 @@ function DonarNonveg({navigation}) {
                         <View style={{ width: 170, alignSelf: 'center' }}>
                             <Button
                                 color="green"
-                                title="Upload"
+                                title="SUBMIT"
                                 onPress={() => submitData()}
                             />
                         </View>

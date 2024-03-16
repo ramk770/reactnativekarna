@@ -110,16 +110,12 @@ const ReciverPage = ({ navigation }) => {
   return (
     <View style={styles.container}>
     <View style={{backgroundColor:"orange"}}>
-
-
-    
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.goBack()}>
           <FontAwesome name="arrow-left" size={25} color="black" />
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>RECIVER</Text>
+        <Text style={styles.headerTitle}>RECEIVER</Text>
         <View style={{marginTop:10}}>
-
         </View>
       </View>
       </View>
@@ -142,7 +138,7 @@ const ReciverPage = ({ navigation }) => {
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("feedbackview")}>
           <View style={styles.button}>
-            <Text style={styles.buttonText}>commands</Text>
+            <Text style={styles.buttonText}>Comments</Text>
           </View>
         </TouchableOpacity>
         
@@ -151,7 +147,7 @@ const ReciverPage = ({ navigation }) => {
      
       <TouchableOpacity onPress={() => setSelectedCategory('wasted')}>
           <View style={styles.button1}>
-            <Text style={styles.buttonText}>Wasted</Text>
+            <Text style={styles.buttonText}>Leftovers</Text>
           </View>
         </TouchableOpacity>
      

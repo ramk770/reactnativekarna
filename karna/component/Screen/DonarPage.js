@@ -12,7 +12,7 @@ function DonarPage({navigation}) {
     <TouchableOpacity onPress={() => navigation.goBack()}>
       <FontAwesome name="arrow-left" size={25} color="black" />
       </TouchableOpacity>
-      <Text style={{ color: "black", fontSize: 25, fontWeight: "bold" }}>DONAR</Text>
+      <Text style={{ color: "black", fontSize: 25, fontWeight: "bold" }}>DONOR</Text>
       <FontAwesome name="user" size={25} color="black" />
     </View>
     </View>
@@ -37,7 +37,7 @@ function DonarPage({navigation}) {
         <TouchableOpacity onPress={() => navigation.navigate("wasted")}>
         <View style={styles.container}>
           <Image source={require("../../assets/Image.png")} style={styles.image} />
-          <Text style={styles.text}>WASTE</Text>
+          <Text style={styles.text}>LEFTOVERS</Text>
         </View>
         </TouchableOpacity>
        

@@ -103,12 +103,12 @@ const deleteUser = async () => {
         <View style={{flexDirection:"row", justifyContent:"space-between",}}>
           <TouchableOpacity onPress={() => navigation.navigate("edit")}>
           <View style={{ width: 130, height: 37, color: "black", backgroundColor: "black", borderRadius: 20, alignContent: "center", margin:5 }}>
-            <Text style={{ fontSize: 18, fontWeight: "bold", color: 'white', textAlign: "center", marginTop: 10 }}>EditProfile</Text>
+            <Text style={{ fontSize: 18, fontWeight: "bold", color: 'white', textAlign: "center", marginTop: 10 }}>Edit Profile</Text>
           </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate("expoler",{userData})}>
           <View style={{ width: 130, height: 37, color: "black", backgroundColor: "black", borderRadius: 20, alignContent: "center",margin:5  }}>
-            <Text style={{ fontSize: 18, fontWeight: "bold", color: 'white', textAlign: "center", marginTop: 10 }}>ViewDetail</Text>
+            <Text style={{ fontSize: 18, fontWeight: "bold", color: 'white', textAlign: "center", marginTop: 10 }}>View Details</Text>
           </View>
           </TouchableOpacity>
           <View style={{ width: 50, height: 40, color: "black", borderRadius: 20, alignContent: "center",margin:7 }}>

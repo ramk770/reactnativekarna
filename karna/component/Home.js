@@ -101,7 +101,7 @@ function Home({navigation}) {
     <View style={{flexDirection: "row"}}>
       <FontAwesome name="user" size={30} color="green" />
       <View>
-      <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold",textAlign:"left",marginLeft:5 }}>Become a Food Waste Hero</Text>
+      <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold",textAlign:"left",marginLeft:5 }}>Become a Food Waste Saver</Text>
       </View>
       
     </View>
