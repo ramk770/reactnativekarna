@@ -22,7 +22,7 @@ function UserEdit({navigation}) {
         console.log('Token not found');
         return;
       }
-      const response = await axios.patch(`http://${localhost}/api/v1/updateMe`, {
+      const response = await axios.patch(`${localhost}/api/v1/updateMe`, {
         name:name,
         email:email,
         role:role,

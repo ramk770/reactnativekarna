@@ -21,7 +21,7 @@ const handlesubmit = async () => {
   }
 
   try {
-    const response = await axios.post(`http://${localhost}/api/v1/login`, {
+    const response = await axios.post(`${localhost}/api/v1/login`, {
       email: email,
       password: password
     });

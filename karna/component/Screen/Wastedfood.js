@@ -19,7 +19,7 @@ function Wastedfood({navigation}) {
     
         const submitData = () => {
             // Validate inputs here if needed
-            axios.post(`http://${localhost}/api/v1/wasted`, {
+            axios.post(`${localhost}/api/v1/wasted`, {
                 name:name,
                 location:location,
                 image:image,

@@ -29,7 +29,7 @@ function Home({navigation}) {
           console.log('Token not found');
           return;
         }
-        const response = await axios.get(`http://${localhost}/api/v1/userdata`, {
+        const response = await axios.get(`${localhost}/api/v1/userdata`, {
           headers: {
             Authorization: `Bearer ${token}`
           }

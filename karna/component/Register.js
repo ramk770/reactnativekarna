@@ -26,7 +26,7 @@ function Register({ navigation }) {
     }
   
     try {
-      const response = await axios.post(`http://${localhost}/api/v1/register`, {
+      const response = await axios.post(`${localhost}/api/v1/register`, {
         name: name,
         email: email,
         "image":picture,
@@ -242,7 +242,7 @@ function Register({ navigation }) {
      <View style={{flex:1,alignItems:"center",alignContent:"center",}}>
         <Pressable onPress={handleSubmit}>
           <View style={{ width: 200, height: 50, color: "green", backgroundColor: "orange", borderRadius: 40, alignContent: "center",  }}>
-            <Text style={{ fontSize: 28, fontWeight: "bold", color: 'white', textAlign: "center",padding:10  }}>Reister</Text>
+            <Text style={{ fontSize: 28, fontWeight: "bold", color: 'white', textAlign: "center",padding:10  }}>Register</Text>
           </View>
         </Pressable>
         </View>

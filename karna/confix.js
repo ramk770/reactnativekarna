@@ -1,2 +1,2 @@
-const localhost ='172.16.6.16:5000';
+const localhost ='https://reactnativekarna.onrender.com';
 export default localhost;

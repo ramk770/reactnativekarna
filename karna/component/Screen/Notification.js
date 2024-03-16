@@ -28,7 +28,7 @@ const Notification = ({navigation}) => {
    const [notify, setnotify] = useState([]);
    const [veg, setveg] = useState([]);
    useEffect(() => {
-    axios.get(`http://${localhost}/api/v1/nonveg`)
+    axios.get(`${localhost}/api/v1/nonveg`)
         .then(res => {
             
             setnotify(res.data.data.nonveg)
@@ -38,7 +38,7 @@ const Notification = ({navigation}) => {
 }, []);
   
 useEffect(() => {
-  axios.get(`http://${localhost}/api/v1/veg`)
+  axios.get(`${localhost}/api/v1/veg`)
       .then(res => {
           
           setveg(res.data.data.veg)

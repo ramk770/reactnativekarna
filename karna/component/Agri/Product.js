@@ -9,14 +9,14 @@ function Product({ navigation }) {
 
     useEffect(() => {
       
-        axios.get(`http://${localhost}/api/v1/sell`)
+        axios.get(`${localhost}/api/v1/sell`)
             .then(res => {
                 setSell(res.data.data.sell);
             })
             .catch(error => console.error(error));
     }, []);
     useEffect(() => {
-    axios.get(`http://${localhost}/api/v1/free`)
+    axios.get(`${localhost}/api/v1/free`)
             .then(res => {
                 console.log("free",free)
                 setFree(res.data.data.free);

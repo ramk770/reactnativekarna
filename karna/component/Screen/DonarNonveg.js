@@ -24,7 +24,7 @@ function DonarNonveg({navigation}) {
 
     const submitData = () => {
         // Validate inputs here if needed
-        axios.post(`http://${localhost}/api/v1/nonveg`, {
+        axios.post(`${localhost}/api/v1/nonveg`, {
             name:name,
             location:location,
             "image":picture,

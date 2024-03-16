@@ -22,7 +22,7 @@ function Sellproduct({navigation}) {
       alert('Please fill in all fields.'); // Display an error message if any required field is empty
       return; // Exit the function early if any required field is empty
     }
-    axios.post(`http://${localhost}/api/v1/sell`, {
+    axios.post(`${localhost}/api/v1/sell`, {
       title: title,
       desc: desc,
       "image":picture,

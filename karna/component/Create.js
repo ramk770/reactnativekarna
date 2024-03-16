@@ -36,7 +36,7 @@ function Create({navigation}) {
   const [product,setproduct] = useState([]);
     
   useEffect(() => {
-      axios.get(`http://${localhost}/api/v1/sell`)
+      axios.get(`${localhost}/api/v1/sell`)
           .then(res => {
               
               setproduct(res.data.data.sell)

@@ -10,7 +10,7 @@ function Vegpage({navigation}) {
   const [veg,setveg] = useState([]);
 
 useEffect(() => {
-    axios.get(`http://${localhost}/api/v1/veg`)
+    axios.get(`${localhost}/api/v1/veg`)
         .then(res => {
           console.log("food",veg)
             setveg(res.data.data.veg)

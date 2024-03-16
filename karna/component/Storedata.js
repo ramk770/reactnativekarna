@@ -33,7 +33,7 @@ function Storedata({navigation}) {
   const [nonveg,setnonveg] = useState([]);
     
   useEffect(() => {
-      axios.get(`http://${localhost}/api/v1//nonveg`)
+      axios.get(`${localhost}/api/v1//nonveg`)
           .then(res => {
               
               setnonveg(res.data.data.nonveg)

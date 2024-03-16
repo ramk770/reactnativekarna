@@ -6,7 +6,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 function Alldata({navigation}) {
     const [recipe, setRecipe] = useState([]);
     useEffect(() => {
-        axios.get(`http://${localhost}/api/v1/nonveg`)
+        axios.get(`${localhost}/api/v1/nonveg`)
             .then(res => {
                 
                 setRecipe(res.data.data.nonveg);

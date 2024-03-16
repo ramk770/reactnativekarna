@@ -24,7 +24,7 @@ const ReciverPage = ({ navigation }) => {
 
   const fetchwasted = async () => {
     try {
-      const response = await axios.get(`http://${localhost}/api/v1/wasted`);
+      const response = await axios.get(`${localhost}/api/v1/wasted`);
       setwasted(response.data.data.wasted);
     } catch (error) {
       console.error('Error fetching non-veg data: ', error);
@@ -34,7 +34,7 @@ const ReciverPage = ({ navigation }) => {
 
   const fetchNonVegData = async () => {
     try {
-      const response = await axios.get(`http://${localhost}/api/v1/nonveg`);
+      const response = await axios.get(`${localhost}/api/v1/nonveg`);
       setNonVegData(response.data.data.nonveg);
     } catch (error) {
       console.error('Error fetching non-veg data: ', error);
@@ -43,7 +43,7 @@ const ReciverPage = ({ navigation }) => {
 
   const fetchVegData = async () => {
     try {
-      const response = await axios.get(`http://${localhost}/api/v1/veg`);
+      const response = await axios.get(`${localhost}/api/v1/veg`);
       setVegData(response.data.data.veg);
     } catch (error) {
       console.error('Error fetching veg data: ', error);
