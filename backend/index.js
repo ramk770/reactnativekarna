@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(bodypaser.urlencoded());
 
 
-//router import
+
 app.use("/api/v1/", UserRouter);
 //veg router
 app.use("/api/v1/", VegRouter);
