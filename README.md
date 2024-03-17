@@ -19,7 +19,7 @@
 | Suhail Ahmed M   | suhail171104@gmail.com |
 
 
-<div style="display: flex; flex-wrap: wrap; flex-direction: row;">
+<div style="display: flex; flex-wrap: wrap; flex-direction: column;">
    
    ![2](https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba)
     ![10](https://github.com/ramk770/reactnativekarna/assets/132542409/abeedb9a-ecc6-485c-b9a0-2b89a5724667)
