@@ -55,22 +55,41 @@ mention the approach and how you have solved the problem with the technology , u
 )
 
 ## Techstacks used 
-`nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
+`nodejs` , `react native` , `ml` , `mongodb` , `express.js` ,`JwtwebToken `, `Google map api`, ` Cloudinary`
 
 ## How to run locally 
 explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
+- step 1 : clone the repo
+- App
 ```
 App...
 cd Karna
 npx expo install
 npx expo start
-backend..
-it is hosted
+
+```
+- backend
+ ```
+ Backen is hoshed
+
 ```
 
-# What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
+# Refrence ?
+Smith, J. (2020). "Global Food Disparities: A Comprehensive Analysis." Journal of Food Equity, 15(2), 123-145.
+Johnson, M. (2018)."Technological Innovations in Food Distribution." Sustainable Technology Review, 7(4), 211-230.
+Garcia, A., & Patel, S. (2019). "Community-Driven Solutions for Food Insecurity." Community Development Journal, 25(3), 178-195.
+Green, R. (2021). "Governmental Policies and Food Accessibility." Policy Studies Review, 12(1), 45-67.
+Chen, X., & Wang, L. (2017). "Blockchain in Food Supply Chain: A Comprehensive Review." International Journal of Information Management, 35(2), 324-335.
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/37aae6b1-3951-42f3-84ab-1429c9fff91d)
+
 
 ## Declaration
-We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
+A waste food collection and delivery app can play a crucial role in addressing both food wastage and the needs of underprivileged individuals. 
+By connecting surplus food from restaurants, events, or households with those who are in need, the app promotes sustainability and social responsibility.
+This initiative not only reduces food waste but also contributes to alleviating hunger and fostering a sense of community by channeling resources to where they are most needed. 
+Overall, such an app has the potential to make a positive impact on both the environment and society.
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/cb39c478-dd4c-4376-950f-31c5f1c7d57a)
+
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/8bffdf49-94e6-4058-873e-a9210fbd11ab)
+
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/c5386dd4-d1b0-45e6-b5e9-1d0a44604d29)
