@@ -36,7 +36,14 @@ Through this initiative, we aim to bridge the gap between surplus food and hunge
 ![image](https://github.com/ramk770/reactnativekarna/assets/132542409/f583bb74-66ac-45f2-a044-49b96f95d48b
 
 ## About the project
-mention few details and features of the project , how it is solving the problem 
+Our innovative food waste management system, available as an Android application, offers a solution. 
+Designed to connect restaurants and hotels with leftover food to NGOs dedicated to combating hunger, this food donation app ensures that excess food finds its way to those in need rather than ending up in landfills.
+ NGO Requests: NGOs can raise a request for excess food through the app.
+Restaurant Approval: Participating restaurants receive these requests and can approve them based on their leftover food availability.
+Food Collection: Once approved, NGOs can collect the food for distribution among the needy
+Racking and History: The system maintains a record of all transactions, allowing for transparency and accountability.
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/42f328ee-016b-41a5-9983-af78e361bb76)
+
 
 ## Technical implemntaion 
 mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
@@ -44,7 +51,8 @@ mention the approach and how you have solved the problem with the technology , u
 - be consise and specific
 - explain with images and flowcharts
 - 
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+![flowchart](![image](https://github.com/ramk770/reactnativekarna/assets/132542409/11b645dd-dc23-4d87-886c-f62b6d1f4f3c)
+)
 
 ## Techstacks used 
 `nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
@@ -53,8 +61,12 @@ mention the approach and how you have solved the problem with the technology , u
 explain detailed steps to run your project locally , example to run a react application 
 - step 1 : clone the repo 
 ```
-npm install
-npm start
+App...
+cd Karna
+npx expo install
+npx expo start
+backend..
+it is hosted
 ```
 
 # What's next ?
