@@ -20,12 +20,18 @@
 
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-       <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="![2](https://github.com/ramk770/reactnativekarna/assets/132542409/81ccc61b-d2b4-4fd7-9072-dd60b567f6ec)
+" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="![10](https://github.com/ramk770/reactnativekarna/assets/132542409/674dfd44-a16c-4d20-97c6-da26bfadaf9e)
+" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="![1](https://github.com/ramk770/reactnativekarna/assets/132542409/549b7129-91e5-411a-9b95-6d80cd78c75f)
+" alt="Image 3" style="width: 30%; margin: 5px;">
+    <img src="![6](https://github.com/ramk770/reactnativekarna/assets/132542409/415c2300-b5ba-4492-820c-8100292459ce)
+" alt="Image 3" style="width: 30%; margin: 5px;">
+       <img src="![3](https://github.com/ramk770/reactnativekarna/assets/132542409/594e17d9-1f8a-4093-8f10-e8503e3a6352)
+" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="![5](https://github.com/ramk770/reactnativekarna/assets/132542409/ee13dc93-b38f-4b7e-9502-43690fb8575b)
+" alt="Image 2" style="width: 30%; margin: 5px;">
 </div>
 
 ## Problem statement 
