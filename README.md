@@ -6,7 +6,7 @@
     ⭐️ Title: Karna ⭐️ <br>
 </h1>
 
-# [`Demo Food Savind Video `](https://www.youtube.com/watch?v=6F_XXO3hdwg) 
+# [`Demo Food Saving Video `](https://www.youtube.com/watch?v=6F_XXO3hdwg) 
 
 ## Team Details
 `Team number` :  VH230
