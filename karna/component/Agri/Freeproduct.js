@@ -22,7 +22,7 @@ function Freeagri({navigation}) {
       return;
     }
 
-    axios.post(`http://${localhost}/api/v1/free`, {
+    axios.post(`${localhost}/api/v1/free`, {
       title: title,
       desc: desc,
       image: picture,

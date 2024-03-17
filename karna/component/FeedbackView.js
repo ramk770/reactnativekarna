@@ -11,7 +11,7 @@ const[feedback,setfeedBack]= useState([])
 
 
     useEffect(() => {
-        axios.get(`http://${localhost}/api/v1/feedback`)
+        axios.get(`${localhost}/api/v1/feedback`)
             .then(res => {
                 
                 setfeedBack(res.data.data.feedback)

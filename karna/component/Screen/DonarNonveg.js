@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Modal, Button, TextInput, ScrollView, Alert, TouchableOpacity } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
-import * as Permissions from 'expo-permissions';
 import { Camera } from 'expo-camera';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import localhost from "../../confix";
 import { LinearGradient } from 'expo-linear-gradient';
 import axios from 'axios';
-import { createIconSetFromFontello } from 'react-native-vector-icons';
+
 
 
 function DonarNonveg({navigation}) {

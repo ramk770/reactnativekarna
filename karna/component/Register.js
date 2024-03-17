@@ -203,7 +203,7 @@ function Register({ navigation }) {
      <View style={{}}>
 
 <Text style={{fontSize:18,marginLeft:10}}>Role</Text>
-{/* <View style={{ marginTop: 10, flexDirection: 'row', borderBottomColor: '#ccc', paddingBottom: 8, borderBottomWidth: 1, marginBottom: 15 }}>
+{/* { <View style={ marginTop: 10, flexDirection: 'row', borderBottomColor: '#ccc', paddingBottom: 8, borderBottomWidth: 1, marginBottom: 15 }}>
        <Ionicons name="people-circle-outline" size={25} color={'#666'} style={{ marginLeft: 5,padding:5 }} />
        <TextInput
           placeholder='Role'
@@ -211,17 +211,17 @@ function Register({ navigation }) {
           value={role}
           onChangeText={text => setrole(text)}
         />
-     </View> */}
+     </View>  */}
      <Picker
     selectedValue={role}
     onValueChange={(itemValue) => setrole(itemValue)}
     style={{ zIndex: 9999, elevation: 1000, }}
 >
         <Picker.Item label="Select role ?" value=""  style={{color:"black",fontSize:15}} />
-        <Picker.Item label="Receiver" value="Yes" style={{color:"black",fontSize:15}} />
-        <Picker.Item label="Donor" value="No" style={{color:"black",fontSize:15}} />
-        <Picker.Item label="Seller" value="S" style={{color:"black",fontSize:15}} />
-        <Picker.Item label="Others" value="D" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Receiver" value="Receiver" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Donor" value="Donor" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Seller" value="Seller" style={{color:"black",fontSize:15}} />
+        <Picker.Item label="Others" value="Others" style={{color:"black",fontSize:15}} />
       </Picker>
       <Text style={styles.line}></Text>
      </View>

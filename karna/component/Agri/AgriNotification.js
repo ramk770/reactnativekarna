@@ -33,7 +33,7 @@ function AgriNotification({navigation}) {
    const [sell, setsell] = useState([]);
    const [free, setfree] = useState([]);
    useEffect(() => {
-    axios.get(`http://${localhost}/api/v1/sell`)
+    axios.get(`${localhost}/api/v1/sell`)
         .then(res => {
             
             setsell(res.data.data.sell)
@@ -43,7 +43,7 @@ function AgriNotification({navigation}) {
 }, []);
   
 useEffect(() => {
-  axios.get(`http://${localhost}/api/v1/free`)
+  axios.get(`${localhost}/api/v1/free`)
       .then(res => {
           
           setfree(res.data.data.free)

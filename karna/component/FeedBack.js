@@ -20,7 +20,7 @@ function FeedBack({navigation}) {
       }
     
       try {
-        const response = await axios.post(`http://${localhost}/api/v1/feedback`, {
+        const response = await axios.post(`${localhost}/api/v1/feedback`, {
          name:name,
          feedbacktext:feedbacktext,
          role:role,

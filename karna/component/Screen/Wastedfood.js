@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
     import { StyleSheet, Text, View, Modal, Button, TextInput, ScrollView, Alert, TouchableOpacity } from 'react-native';
     import * as ImagePicker from 'expo-image-picker';
-    import * as Permissions from 'expo-permissions';
+
     import { Camera } from 'expo-camera';
     import FontAwesome from 'react-native-vector-icons/FontAwesome';
     import localhost from "../../confix";
@@ -11,8 +11,8 @@ import React, { useState } from 'react';
 function Wastedfood({navigation}) {
         const [name, setName] = useState("");
         const [location, setLocation] = useState("");
-        const [image, setImage] = useState("");
         const [hotel, setHotel] = useState("");
+        const [picture, setPicture] = useState('');
         const [phoneNumber, setphoneNumber] = useState("");
         const [address, setAddress] = useState("");
         const [modal, setModal] = useState(false);
@@ -22,7 +22,7 @@ function Wastedfood({navigation}) {
             axios.post(`${localhost}/api/v1/wasted`, {
                 name:name,
                 location:location,
-                image:image,
+                "image":picture,
                 hotel:hotel,
                 phoneNumber:phoneNumber,
                 address:address
@@ -30,81 +30,90 @@ function Wastedfood({navigation}) {
                 alert("food uploaded successfully");
             }).catch((e) => {
                 console.error(e);
+                console.log("error", e);
                 alert('Some error occurred while uploading recipes');
             });
         }
     
         const pickFromGalleryWithPermissions = async () => {
             const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
-    
+          
             if (status === "granted") {
-                try {
-                    const result = await ImagePicker.launchImageLibraryAsync({
-                        mediaTypes: ImagePicker.MediaTypeOptions.Images,
-                        allowsEditing: true,
-                        aspect: [1, 1],
-                        quality: 0.5,
-                    });
-    
-                    if (!result.cancelled) {
-                        handleUpload(result.uri);
-                    }
-                } catch (error) {
-                    console.error(error.message);
-                    Alert.alert("Error", "An error occurred while picking image from gallery.");
-                }
-            } else {
-                Alert.alert("Permission denied", "Permission denied for accessing the gallery.");
-            }
-        };
-    
-      
-        const handleUpload = async (uri) => {
-            const formData = new FormData();
-            formData.append('file', { uri: uri, type: 'image/jpeg', name: 'image.jpg' });
-        
-            try {
-                const response = await axios.post("https://api.cloudinary.com/v1_1/dv31wonpd/image/upload", formData, {
-                    headers: {
-                        'Content-Type': 'multipart/form-data'
-                    }
+              try {
+                const result = await ImagePicker.launchImageLibraryAsync({
+                  mediaTypes: ImagePicker.MediaTypeOptions.Images,
+                  allowsEditing: true,
+                  aspect: [1, 1],
+                  quality: 0.5,
                 });
-        
-                const data = response.data;
-                setImage(data.url);
-                alert("Image uploaded successfully");
-                setModal(false);
-            } catch (error) {
-                console.log(error);
-                console.error(error);
-                Alert.alert("Error", "An error occurred while uploading image.");
+          
+                if (!result.canceled) {
+                  const image = result.assets[0]; // Access image from "assets" array
+          
+                  const newFile = {
+                    uri: image.uri,
+                    type: `test/${image.uri.split(".").pop()}`, // Use `pop()` instead of indexing
+                    name: `test.${image.uri.split(".").pop()}`,
+                  };
+          
+                  handleUpload(newFile);
+                  setModal(false);
+                }
+              } catch (error) {
+                console.error(error.message); // handle error
+              }
+            } else {
+              Alert.alert("Permission denied for accessing the gallery");
             }
-        };
-        
-    
-        const pickFromCameraWithPermissions = async () => {
+          };
+          const pickFromCameraWithPermissions = async () => {
             const { status } = await Camera.requestCameraPermissionsAsync();
-    
+          
             if (status === "granted") {
-                try {
-                    const result = await ImagePicker.launchCameraAsync({
-                        mediaTypes: ImagePicker.MediaTypeOptions.Images,
-                        allowsEditing: true,
-                        aspect: [1, 1],
-                        quality: 0.5,
-                    });
-    
-                    if (!result.cancelled) {
-                        handleUpload(result.uri);
-                    }
+              try {
+                const result = await ImagePicker.launchCameraAsync({
+                  mediaTypes: ImagePicker.MediaTypeOptions.Images,
+                  allowsEditing: true,
+                  aspect: [1, 1],
+                  quality: 0.5,
+                });
+                if (!result.canceled) {
+                    const image = result.assets[0]; // Access image from "assets" array
+            
+                    const newFile = {
+                      uri: image.uri,
+                      type: `test/${image.uri.split(".").pop()}`, // Use `pop()` instead of indexing
+                      name: `test.${image.uri.split(".").pop()}`,
+                    };
+            
+                    handleUpload(newFile);
+                    setModal(false);
+                  }
                 } catch (error) {
-                    console.error(error.message);
-                    Alert.alert("Error", "An error occurred while taking a photo.");
+                  console.error(error.message); // handle error
                 }
             } else {
-                Alert.alert("Permission denied", "Permission denied for accessing the camera.");
+              Alert.alert("Permission denied for accessing the camera");
             }
-        };
+          };
+             const handleUpload = (image)=>{
+                  const data = new FormData()
+                  data.append('file',image)
+                  data.append('upload_preset','mfg5ed3t')
+                  data.append("cloud_name","daqnlvhjm")
+          
+                  fetch("https://api.cloudinary.com/v1_1/dv31wonpd/image/upload",{
+                      method:"post",
+                      body:data
+                  }).then(res=>res.json()).
+                  then(data=>{
+                      setPicture(data.url)
+                      alert("images loaded uploaded")
+                      setModal(false)
+                  }).catch(err=>{
+                      Alert.alert("error while uploading")
+                  })
+             }
     
         return (
             <ScrollView>
@@ -158,19 +167,18 @@ function Wastedfood({navigation}) {
                                 style={styles.input}
                                 value={location}
                                 onChangeText={text => setLocation(text)}
-                            />
-                            
+                            />                             
                             <View style={{ width: 170, alignSelf: 'center' }}>
                                 <Button
                                     color="green"
                                     title="Upload Image"
                                     onPress={() => setModal(true)}
                                 />
-                            </View>
+                            </View> 
                             <View style={{ width: 170, alignSelf: 'center' }}>
                                 <Button
                                     color="green"
-                                    title="Upload"
+                                    title="Submit"
                                     onPress={() => submitData()}
                                 />
                             </View>
@@ -179,7 +187,7 @@ function Wastedfood({navigation}) {
                                 transparent={true}
                                 visible={modal}
                                 onRequestClose={() => {
-                                    setModal(false);
+                                setModal(false);
                                 }}
                             >
                                 <View style={styles.modalView}>
