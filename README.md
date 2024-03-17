@@ -20,19 +20,15 @@
 
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="
-https://github.com/ramk770/reactnativekarna/assets/132542409/e9190a44-3fe0-45a5-9b6d-f9dcf04989b1
-" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="![10](https://github.com/ramk770/reactnativekarna/assets/132542409/674dfd44-a16c-4d20-97c6-da26bfadaf9e)
-" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="![1](https://github.com/ramk770/reactnativekarna/assets/132542409/549b7129-91e5-411a-9b95-6d80cd78c75f)
-" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="![6](https://github.com/ramk770/reactnativekarna/assets/132542409/415c2300-b5ba-4492-820c-8100292459ce)
-" alt="Image 3" style="width: 30%; margin: 5px;">
-       <img src="![3](https://github.com/ramk770/reactnativekarna/assets/132542409/594e17d9-1f8a-4093-8f10-e8503e3a6352)
-" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="![5](https://github.com/ramk770/reactnativekarna/assets/132542409/ee13dc93-b38f-4b7e-9502-43690fb8575b)
-" alt="Image 2" style="width: 30%; margin: 5px;">
+   
+   ![2](https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba)
+    ![10](https://github.com/ramk770/reactnativekarna/assets/132542409/abeedb9a-ecc6-485c-b9a0-2b89a5724667)
+    ![6](https://github.com/ramk770/reactnativekarna/assets/132542409/2a6e25f3-28ad-46e0-875e-08ac52b9c211)
+![1](https://github.com/ramk770/reactnativekarna/assets/132542409/0156b15b-9bb0-4252-9f9f-cea25a362496)![3](https://github.com/ramk770/reactnativekarna/assets/132542409/e8216e06-d37d-4014-9c16-2472d3e2f1fa)
+
+
+
+
 </div>
 
 ## Problem statement 
