@@ -21,7 +21,7 @@
 
 <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
   <div style="display: flex; flex-wrap: wrap;">
-    ![Image 1](https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba)
+    ![WhatsApp Image 2024-03-17 at 12 02 45_0cec06be](https://github.com/ramk770/reactnativekarna/assets/132542409/d62112c1-a131-49c2-9013-dfba73d71ac4)
     ![Image 2](https://github.com/ramk770/reactnativekarna/assets/132542409/abeedb9a-ecc6-485c-b9a0-2b89a5724667)
     ![Image 3](https://github.com/ramk770/reactnativekarna/assets/132542409/2a6e25f3-28ad-46e0-875e-08ac52b9c211)
   </div>
