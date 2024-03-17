@@ -6,7 +6,7 @@
     ⭐️ Title: Karna ⭐️ <br>
 </h1>
 
-# [`Demo video link `](https://www.youtube.com/watch?v=6F_XXO3hdwg) 
+# [`Demo Food Savind Video `](https://www.youtube.com/watch?v=6F_XXO3hdwg) 
 
 ## Team Details
 `Team number` :  VH230
@@ -29,7 +29,12 @@
 </div>
 
 ## Problem statement 
-mention the problem , and mention the severity of the problem and why we need solution for that  , mention which gorup of people face that problem
+In response to the pressing issue of food waste and the simultaneous challenge of ensuring access to nutritious meals for those in need, this project introduces a Waste Food Collection and Delivery App
+This innovative solution leverages mobile technology to connect food donors with surplus edibles to recipients in need.
+The app streamlines the process of collecting excess food from various sources and orchestrates efficient deliveries to organizations or individuals requiring assistance. 
+Through this initiative, we aim to bridge the gap between surplus food and hunger, contributing to a more sustainable and socially responsible food distribution ecosystem.
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/f583bb74-66ac-45f2-a044-49b96f95d48b
+
 ## About the project
 mention few details and features of the project , how it is solving the problem 
 
