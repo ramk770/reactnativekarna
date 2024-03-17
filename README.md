@@ -45,13 +45,9 @@ Racking and History: The system maintains a record of all transactions, allowing
 ![image](https://github.com/ramk770/reactnativekarna/assets/132542409/42f328ee-016b-41a5-9983-af78e361bb76)
 
 
-## Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
-- 
-![flowchart](![image](https://github.com/ramk770/reactnativekarna/assets/132542409/11b645dd-dc23-4d87-886c-f62b6d1f4f3c)
+## Flowchart
+
+![flowchart]![image](https://github.com/ramk770/reactnativekarna/assets/132542409/c5386dd4-d1b0-45e6-b5e9-1d0a44604d29)
 )
 
 ## Techstacks used 
@@ -90,6 +86,6 @@ This initiative not only reduces food waste but also contributes to alleviating 
 Overall, such an app has the potential to make a positive impact on both the environment and society.
 ![image](https://github.com/ramk770/reactnativekarna/assets/132542409/cb39c478-dd4c-4376-950f-31c5f1c7d57a)
 
-![image](https://github.com/ramk770/reactnativekarna/assets/132542409/8bffdf49-94e6-4058-873e-a9210fbd11ab)
 
-![image](https://github.com/ramk770/reactnativekarna/assets/132542409/c5386dd4-d1b0-45e6-b5e9-1d0a44604d29)
+
+
