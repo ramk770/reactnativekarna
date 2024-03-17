@@ -20,16 +20,18 @@
 
 
 <div style="display: flex; flex-wrap: wrap; flex-direction: column;">
-   
-   ![2](https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba)
-    ![10](https://github.com/ramk770/reactnativekarna/assets/132542409/abeedb9a-ecc6-485c-b9a0-2b89a5724667)
-    ![6](https://github.com/ramk770/reactnativekarna/assets/132542409/2a6e25f3-28ad-46e0-875e-08ac52b9c211)
-![1](https://github.com/ramk770/reactnativekarna/assets/132542409/0156b15b-9bb0-4252-9f9f-cea25a362496)![3](https://github.com/ramk770/reactnativekarna/assets/132542409/e8216e06-d37d-4014-9c16-2472d3e2f1fa)
-
-
-
-
+  <div style="display: flex; flex-wrap: wrap;">
+    ![Image 1](https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba)
+    ![Image 2](https://github.com/ramk770/reactnativekarna/assets/132542409/abeedb9a-ecc6-485c-b9a0-2b89a5724667)
+    ![Image 3](https://github.com/ramk770/reactnativekarna/assets/132542409/2a6e25f3-28ad-46e0-875e-08ac52b9c211)
+  </div>
+  <div style="display: flex; flex-wrap: wrap;">
+    ![Image 4](https://github.com/ramk770/reactnativekarna/assets/132542409/0156b15b-9bb0-4252-9f9f-cea25a362496)
+    ![Image 5](https://github.com/ramk770/reactnativekarna/assets/132542409/e8216e06-d37d-4014-9c16-2472d3e2f1fa)
+    ![Image 6](https://github.com/ramk770/reactnativekarna/assets/132542409/placeholder-for-image-6)
+  </div>
 </div>
+
 
 ## Problem statement 
 In response to the pressing issue of food waste and the simultaneous challenge of ensuring access to nutritious meals for those in need, this project introduces a Waste Food Collection and Delivery App
