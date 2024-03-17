@@ -50,7 +50,7 @@ Racking and History: The system maintains a record of all transactions, allowing
 ## Flowchart
 
 ![flowchart]![image](https://github.com/ramk770/reactnativekarna/assets/132542409/c5386dd4-d1b0-45e6-b5e9-1d0a44604d29)
-)
+
 
 ## Techstacks used 
 `nodejs` , `react native` , `ml` , `mongodb` , `express.js` ,`JwtwebToken `, `Google map api`, ` Cloudinary`
