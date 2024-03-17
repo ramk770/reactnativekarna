@@ -25,7 +25,7 @@
     <img src="https://github.com/ramk770/reactnativekarna/assets/132542409/2a6e25f3-28ad-46e0-875e-08ac52b9c211" alt="Image 3" style="width: 30%; margin: 5px;">
     <img src="https://github.com/ramk770/reactnativekarna/assets/132542409/0156b15b-9bb0-4252-9f9f-cea25a362496" alt="Image 3" style="width: 30%; margin: 5px;">
     <img src="https://github.com/ramk770/reactnativekarna/assets/132542409/e8216e06-d37d-4014-9c16-2472d3e2f1fa" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/ramk770/reactnativekarna/assets/132542409/placeholder-for-image-6" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/ramk770/reactnativekarna/assets/132542409/e172dca4-cd09-4735-964c-c806290ced7a" style="width: 30%; margin: 5px;">
 </div>
 
 
