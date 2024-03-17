@@ -26,10 +26,7 @@ const data = [
 const HostelListItem = ({ item }) => (
   <View style={styles.hostelContainer}>
     <Image source={item.image} style={styles.hostelImage} />
-    {/* <View style={styles.hostelInfo}>
-      <Text style={styles.hostelName}>{item.name}</Text>
-      <Text style={styles.hostelLocation}>{item.location}</Text>
-    </View> */}
+   
   </View>
 );
 
