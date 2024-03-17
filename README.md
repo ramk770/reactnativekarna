@@ -44,7 +44,6 @@ Designed to connect restaurants and hotels with leftover food to NGOs dedicated 
 Restaurant Approval: Participating restaurants receive these requests and can approve them based on their leftover food availability.
 Food Collection: Once approved, NGOs can collect the food for distribution among the needy
 Racking and History: The system maintains a record of all transactions, allowing for transparency and accountability.
-![image](https://github.com/ramk770/reactnativekarna/assets/132542409/42f328ee-016b-41a5-9983-af78e361bb76)
 
 
 ## Flowchart
@@ -68,7 +67,7 @@ npx expo start
 ```
 - backend
  ```
- Backen is hoshed
+ Backend is hosted
 
 ```
 
@@ -78,7 +77,7 @@ Johnson, M. (2018)."Technological Innovations in Food Distribution." Sustainable
 Garcia, A., & Patel, S. (2019). "Community-Driven Solutions for Food Insecurity." Community Development Journal, 25(3), 178-195.
 Green, R. (2021). "Governmental Policies and Food Accessibility." Policy Studies Review, 12(1), 45-67.
 Chen, X., & Wang, L. (2017). "Blockchain in Food Supply Chain: A Comprehensive Review." International Journal of Information Management, 35(2), 324-335.
-![image](https://github.com/ramk770/reactnativekarna/assets/132542409/37aae6b1-3951-42f3-84ab-1429c9fff91d)
+
 
 
 ## Declaration
@@ -86,7 +85,7 @@ A waste food collection and delivery app can play a crucial role in addressing b
 By connecting surplus food from restaurants, events, or households with those who are in need, the app promotes sustainability and social responsibility.
 This initiative not only reduces food waste but also contributes to alleviating hunger and fostering a sense of community by channeling resources to where they are most needed. 
 Overall, such an app has the potential to make a positive impact on both the environment and society.
-![image](https://github.com/ramk770/reactnativekarna/assets/132542409/cb39c478-dd4c-4376-950f-31c5f1c7d57a)
+
 
 
 
