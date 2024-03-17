@@ -16,12 +16,11 @@
 | Ramanarayanan | ramanarayanank.it2022@citchennai.net |
 | Nikhill Kannaah R | nikhillkannaah2004@gmail.com |
 | Promoth R  | promothpromoth851@gmail.com |
-| Suhail Ahmed M   | suhail171104@gmail.com |
+| Suhail Ahmed M   | suhail171104@gmail.com|
 
 
-<div style="display: flex; flex-wrap: wrap; flex-direction: column;">
-  <div style="display: flex; flex-wrap: wrap;">
-    ![Image 1](https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/ramk770/reactnativekarna/assets/132542409/8e56450e-635d-4c77-aeba-2d040b66fdba" alt="Image 1" style="width: 30%; margin: 5px;">
     ![Image 2](https://github.com/ramk770/reactnativekarna/assets/132542409/abeedb9a-ecc6-485c-b9a0-2b89a5724667)
     ![Image 3](https://github.com/ramk770/reactnativekarna/assets/132542409/2a6e25f3-28ad-46e0-875e-08ac52b9c211)
   </div>
@@ -38,7 +37,7 @@ In response to the pressing issue of food waste and the simultaneous challenge o
 This innovative solution leverages mobile technology to connect food donors with surplus edibles to recipients in need.
 The app streamlines the process of collecting excess food from various sources and orchestrates efficient deliveries to organizations or individuals requiring assistance. 
 Through this initiative, we aim to bridge the gap between surplus food and hunger, contributing to a more sustainable and socially responsible food distribution ecosystem.
-![image](https://github.com/ramk770/reactnativekarna/assets/132542409/f583bb74-66ac-45f2-a044-49b96f95d48b
+![image](https://github.com/ramk770/reactnativekarna/assets/132542409/f583bb74-66ac-45f2-a044-49b96f95d48b)
 
 ## About the project
 Our innovative food waste management system, available as an Android application, offers a solution. 
