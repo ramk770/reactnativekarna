@@ -20,7 +20,8 @@
 
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="![2](https://github.com/ramk770/reactnativekarna/assets/132542409/81ccc61b-d2b4-4fd7-9072-dd60b567f6ec)
+    <img src="
+https://github.com/ramk770/reactnativekarna/assets/132542409/e9190a44-3fe0-45a5-9b6d-f9dcf04989b1
 " alt="Image 1" style="width: 30%; margin: 5px;">
     <img src="![10](https://github.com/ramk770/reactnativekarna/assets/132542409/674dfd44-a16c-4d20-97c6-da26bfadaf9e)
 " alt="Image 2" style="width: 30%; margin: 5px;">
@@ -93,6 +94,5 @@ Overall, such an app has the potential to make a positive impact on both the env
 ![image](https://github.com/ramk770/reactnativekarna/assets/132542409/cb39c478-dd4c-4376-950f-31c5f1c7d57a)
 
 
-![2](https://github.com/ramk770/reactnativekarna/assets/132542409/e9190a44-3fe0-45a5-9b6d-f9dcf04989b1)
 
 
